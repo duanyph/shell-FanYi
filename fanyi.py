@@ -51,6 +51,7 @@ jk=quote("http://openapi.youdao.com/api?q="+wb+"&from="+yyy+"&to="+mbyy+"&appKey
 tj=request.urlopen(jk)
 sj=tj.read().decode("utf-8")
 sj=json.loads(sj)
+#解析返回的数据
 if sj["errorCode"]=="101":
     print("错误，可能缺少必填的参数！")
 elif sj["errorCode"]=="102":
