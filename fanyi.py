@@ -4,7 +4,7 @@
     -duanyph@qq.com
     -2011.8.17
 Usage:
-    rk.py [-A|-Z|-J|-E|-K|-F|-R|-P|-C] (-a|-z|-j|-e|-k|-f|-r|-p|-c) <wb>
+    fanyi.py [-A|-Z|-J|-E|-K|-F|-R|-P|-C] (-a|-z|-j|-e|-k|-f|-r|-p|-c) <wb>
 
 Options:
     -h           帮助
@@ -19,8 +19,8 @@ Options:
     -C,-c        西班牙语
 
 Example:
-    rk.py [源语言(可选参数)] (目标语言(必选参数))  被翻译的文本(必选参数)
-    rk.py -Z -e 被翻译的文本(如果可选参数没有填则相应的参数设为自动识别，即auto)
+    fanyi.py [源语言(可选参数)] (目标语言(必选参数))  被翻译的文本(必选参数)
+    fanyi.py -Z -e 被翻译的文本(如果可选参数没有填则相应的参数设为自动识别，即auto)
 """
 import hashlib
 import random
