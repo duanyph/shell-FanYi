@@ -2,7 +2,7 @@
 """命令行翻译工具
     -作者:想飞的男孩
     -duanyph@qq.com
-    -2011.8.17
+    -2017.8.17
 Usage:
     fanyi.py [-A|-Z|-J|-E|-K|-F|-R|-P|-C] (-a|-z|-j|-e|-k|-f|-r|-p|-c) <wb>
 
